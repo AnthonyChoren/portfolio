@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+// FONTS
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  color: #003142;
+}
+
+.main-title {
+  line-height: 1.6em;
+  font-size: 56px;
+  text-align: left;
+}
+
+.top-title {
+ color: #503963;
+ letter-spacing: 4px;
+ font-family: sans-serif;
+ font-weight: 400;
+ text-align: center;
+ font-size: 16px;
+}
+
+
+// COLORS
+
+body {
+  background-color: #ffffff;
+}
+
+// LAYOUT
+
+.main-title-layout {
+  box-sizing: border-box;
+  width: 48%;
+  margin-right: auto;
+  margin-left: auto;
+}
