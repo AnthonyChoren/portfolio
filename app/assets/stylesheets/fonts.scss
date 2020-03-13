@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 // FONTS
 
-h1 {
+h1, h2, h3 {
   font-family: 'Playfair Display', serif;
   color: #003142;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
 }
 
 .main-title {
@@ -16,8 +22,21 @@ h1 {
 .top-title {
  color: #503963;
  letter-spacing: 4px;
- font-family: sans-serif;
+ font-family: 'Inter', sans-serif;
  font-weight: 400;
  text-align: center;
  font-size: 16px;
+}
+
+.card-link-title {
+  font-weight: 600;
+  font-size: 24px;
+  color: #003142;
+  margin: 0px;
+}
+
+.card-link-text {
+  margin: 0px;
+  color: #5a7586;
+  font-size: 14px
 }
