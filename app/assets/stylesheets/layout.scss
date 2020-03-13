@@ -1,0 +1,22 @@
+// LAYOUT
+
+.container {
+  max-width: 1280px !important;
+}
+
+.main-title-layout {
+  box-sizing: border-box;
+  width: 48%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spacer {
+  height: 88px;
+}
