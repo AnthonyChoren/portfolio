@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@font-face {
+  font-family: 'Circular';
+  src:font-url('/assets/CircularStd.otf') format("truetype");
+}
+
 
 // FONTS
 
 h1, h2, h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Circular';
   color: #003142;
 }
 
 p {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Circular', sans-serif;
   font-size: 16px;
   line-height: 1.8em;
   color: #647d88;
