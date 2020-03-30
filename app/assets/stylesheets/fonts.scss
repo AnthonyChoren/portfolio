@@ -1,23 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 @font-face {
-  font-family: 'Circular';
-  src:font-url('/assets/CircularStd.otf') format("truetype");
-  font-family: 'CircularBook';
+  font-family: 'CircularStd';
   src:font-url('/assets/CircularStd-Book.otf') format("truetype");
-  font-family: 'CircularMedium';
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'CircularStd';
   src:font-url('/assets/CircularStd-Medium.otf') format("truetype");
-  font-family: 'CircularBold';
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: 'CircularStd';
   src:font-url('/assets/CircularStd-Bold.otf') format("truetype");
-  font-family: 'CircularBlack';
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'CircularStd';
   src:font-url('/assets/CircularStd-Black.otf') format("truetype");
+  font-weight: black;
 }
 
 
 // FONTS
 
 h1, h2, h3 {
-  font-family: 'CircularBlack';
+  font-family: 'Circular';
   color: #003142;
 }
 
@@ -26,26 +38,27 @@ p {
   font-size: 16px;
   line-height: 1.8em;
   color: #647d88;
+  font-weight: normal;
 }
 
 .main-title {
   line-height: 1.6em;
   font-size: 56px;
   text-align: left;
-  font-family: 'CircularBold';
+  font-family: 'Circular';
 }
 
 .top-title {
  color: #503963;
  letter-spacing: 4px;
- font-family: 'CircularBook', sans-serif;
+ font-family: 'Circular', sans-serif;
  font-weight: 400;
  text-align: center;
  font-size: 16px;
 }
 
 .card-link-title {
-  font-weight: 600;
+  font-family: 'Circular';
   font-size: 24px;
   color: #003142;
   margin: 0px;
