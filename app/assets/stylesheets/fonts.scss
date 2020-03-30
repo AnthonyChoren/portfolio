@@ -17,7 +17,7 @@
 // FONTS
 
 h1, h2, h3 {
-  font-family: 'Circular';
+  font-family: 'CircularBlack';
   color: #003142;
 }
 
@@ -32,12 +32,13 @@ p {
   line-height: 1.6em;
   font-size: 56px;
   text-align: left;
+  font-family: 'CircularBold';
 }
 
 .top-title {
  color: #503963;
  letter-spacing: 4px;
- font-family: 'Inter', sans-serif;
+ font-family: 'CircularBook', sans-serif;
  font-weight: 400;
  text-align: center;
  font-size: 16px;
