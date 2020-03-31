@@ -4796,3 +4796,119 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 63ms (Views: 61.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-03-31 13:41:16 +0200
+Processing by PagesController#intro as HTML
+  Rendering pages/intro.html.erb within layouts/application
+  Rendered pages/intro.html.erb within layouts/application (1337.8ms)
+Completed 200 OK in 1402ms (Views: 1398.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-31 13:41:55 +0200
+Processing by PagesController#intro as HTML
+  Rendering pages/intro.html.erb within layouts/application
+  Rendered pages/intro.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-31 13:45:24 +0200
+Processing by PagesController#intro as HTML
+  Rendering pages/intro.html.erb within layouts/application
+  Rendered pages/intro.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 645ms (Views: 644.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-31 13:45:38 +0200
+Processing by PagesController#intro as HTML
+  Rendering pages/intro.html.erb within layouts/application
+  Rendered pages/intro.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-31 13:46:11 +0200
+Processing by PagesController#intro as HTML
+  Rendering pages/intro.html.erb within layouts/application
+  Rendered pages/intro.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 655ms (Views: 653.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-31 13:46:33 +0200
+Processing by PagesController#intro as HTML
+  Rendering pages/intro.html.erb within layouts/application
+  Rendered pages/intro.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-31 13:46:44 +0200
+Processing by PagesController#intro as HTML
+  Rendering pages/intro.html.erb within layouts/application
+  Rendered pages/intro.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-31 13:46:52 +0200
+Processing by PagesController#intro as HTML
+  Rendering pages/intro.html.erb within layouts/application
+  Rendered pages/intro.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-31 13:47:13 +0200
+Processing by PagesController#intro as HTML
+  Rendering pages/intro.html.erb within layouts/application
+  Rendered pages/intro.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 645ms (Views: 644.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-31 13:47:26 +0200
+Processing by PagesController#intro as HTML
+  Rendering pages/intro.html.erb within layouts/application
+  Rendered pages/intro.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 658ms (Views: 657.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-31 13:50:15 +0200
+Processing by PagesController#intro as HTML
+  Rendering pages/intro.html.erb within layouts/application
+  Rendered pages/intro.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 636ms (Views: 635.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-31 14:04:21 +0200
+Processing by PagesController#intro as HTML
+  Rendering pages/intro.html.erb within layouts/application
+  Rendered pages/intro.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 69ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "...width: 576px) {": expected "}", was "... }"
+        on line 4:28 of app/assets/stylesheets/images.scss
+        from line 5:1 of app/assets/stylesheets/application.scss
+>> @media (min-width: 576px) { ... }
+
+   ---------------------------^
+):
+     7: 
+     8:     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     9: 
+    10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    11:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    12:   </head>
+    13: 
+  
+app/assets/stylesheets/images.scss:4
+app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__4289631423196620952_70157083701660'
+Started GET "/" for ::1 at 2020-03-31 14:04:33 +0200
+Processing by PagesController#intro as HTML
+  Rendering pages/intro.html.erb within layouts/application
+  Rendered pages/intro.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 623ms (Views: 622.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-03-31 14:05:12 +0200
+Processing by PagesController#intro as HTML
+  Rendering pages/intro.html.erb within layouts/application
+  Rendered pages/intro.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
