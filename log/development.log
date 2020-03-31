@@ -4912,3 +4912,108 @@ Processing by PagesController#intro as HTML
 Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-03-31 14:12:48 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial pages/_intro, application/_intro with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/anthonychoren/portfolio/app/views"
+):
+    1: <div class="container">
+    2: <!-- INTRO -->
+    3:  <%= render 'intro' %>
+    4:   <div class="row mt-5 pt-5">
+    5:     <div class="col-6 mt-5 pt-5">
+    6:       <h1>My work</h1>
+  
+app/views/pages/home.html.erb:3:in `_app_views_pages_home_html_erb___1962150094989127829_70286375935020'
+Started GET "/" for ::1 at 2020-03-31 14:13:00 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial pages/_intro with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/anthonychoren/portfolio/app/views"
+):
+    1: <div class="container">
+    2: <!-- INTRO -->
+    3:  <%= render 'pages/intro' %>
+    4:   <div class="row mt-5 pt-5">
+    5:     <div class="col-6 mt-5 pt-5">
+    6:       <h1>My work</h1>
+  
+app/views/pages/home.html.erb:3:in `_app_views_pages_home_html_erb___1962150094989127829_70286355576700'
+Started PUT "/__web_console/repl_sessions/15cb45371157842f64f3a4e86d5518db" for ::1 at 2020-03-31 14:13:04 +0200
+Started PUT "/__web_console/repl_sessions/15cb45371157842f64f3a4e86d5518db" for ::1 at 2020-03-31 14:13:04 +0200
+Started GET "/" for ::1 at 2020-03-31 14:16:14 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial pages/_intro.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/anthonychoren/portfolio/app/views"
+):
+    1: <div class="container">
+    2: <!-- INTRO -->
+    3:  <%= render 'pages/intro.html.erb' %>
+    4:   <div class="row mt-5 pt-5">
+    5:     <div class="col-6 mt-5 pt-5">
+    6:       <h1>My work</h1>
+  
+app/views/pages/home.html.erb:3:in `_app_views_pages_home_html_erb___1962150094989127829_70286355916840'
+Started GET "/" for ::1 at 2020-03-31 14:20:09 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial /_intro with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/anthonychoren/portfolio/app/views"
+):
+    1: <div class="container">
+    2: <!-- INTRO -->
+    3:  <%= render "/intro" %>
+    4:   <div class="row mt-5 pt-5">
+    5:     <div class="col-6 mt-5 pt-5">
+    6:       <h1>My work</h1>
+  
+app/views/pages/home.html.erb:3:in `_app_views_pages_home_html_erb___1962150094989127829_70286348744060'
+Started GET "/" for ::1 at 2020-03-31 14:20:10 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial /_intro with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/anthonychoren/portfolio/app/views"
+):
+    1: <div class="container">
+    2: <!-- INTRO -->
+    3:  <%= render "/intro" %>
+    4:   <div class="row mt-5 pt-5">
+    5:     <div class="col-6 mt-5 pt-5">
+    6:       <h1>My work</h1>
+  
+app/views/pages/home.html.erb:3:in `_app_views_pages_home_html_erb___1962150094989127829_70286339386220'
+Started GET "/" for ::1 at 2020-03-31 14:20:17 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/_intro.html.erb (1157.8ms)
+  Rendered pages/home.html.erb within layouts/application (1164.2ms)
+Completed 200 OK in 1211ms (Views: 1210.2ms | ActiveRecord: 0.0ms)
+
+
