@@ -4,6 +4,34 @@
   max-width: 1280px !important;
 }
 
+.newrow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.newcol {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+/* Pour les écrans de 992px ou moins, on passe à 2 colonnes */
+@media screen and (max-width: 992px) {
+  .newcol {
+    flex: 50%;
+  }
+}
+
+/* Pour les écrans de 600px ou moins, les colonnes passe les unes sur les autres */
+@media screen and (max-width: 600px) {
+  .newrow {
+    flex-direction: column;
+  }
+}
+
 .main-title-layout {
   box-sizing: border-box;
   width: 48%;
